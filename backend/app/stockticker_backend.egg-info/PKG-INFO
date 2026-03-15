@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: stockticker-backend
+Version: 0.1.0
+Summary: Modular backend for an online stockticker boardgame
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.111.0
+Requires-Dist: uvicorn>=0.30.0
+Requires-Dist: duckdb>=1.0.0
+Requires-Dist: pydantic>=2.8.0

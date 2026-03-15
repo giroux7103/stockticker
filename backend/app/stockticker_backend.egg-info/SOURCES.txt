@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+app/api/__init__.py
+app/api/routes.py
+app/api/schemas.py
+app/domain/__init__.py
+app/domain/engine.py
+app/domain/models.py
+app/repositories/__init__.py
+app/repositories/game_repository.py
+app/services/__init__.py
+app/services/game_service.py
+app/stockticker_backend.egg-info/PKG-INFO
+app/stockticker_backend.egg-info/SOURCES.txt
+app/stockticker_backend.egg-info/dependency_links.txt
+app/stockticker_backend.egg-info/requires.txt
+app/stockticker_backend.egg-info/top_level.txt
