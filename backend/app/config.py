@@ -7,14 +7,7 @@ def _parse_cors_allowed_origins() -> tuple[str, ...]:
     raw = os.getenv("CORS_ALLOWED_ORIGINS", "")
     if not raw.strip():
         return (
-            "http://localhost:5173",
-            "https://localhost:5173",
-            "http://127.0.0.1:5173",
-            "https://127.0.0.1:5173",
-            "http://173.59.126.226",
-            "https://173.59.126.226",
-            "http://173.59.126.226:8000",
-            "https://173.59.126.226:8000",
+            ["http://192.168.0.134:5173", "http://192.168.0.134:8000", "http://172.17.0.3:5173", "http://172.17.0.3:8000"]
         )
 
     origins = tuple(
